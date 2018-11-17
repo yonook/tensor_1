@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="person\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="person\MyUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="person\Person.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="py_basic\add.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,7 +41,13 @@
     <Compile Include="tf_basic\tf_multi.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tf_oop\main.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_oop\py_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_oop\py_inher.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tf_oop\py_method.py">
@@ -46,6 +61,7 @@
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="person\" />
     <Folder Include="tf_oop\" />
     <Folder Include="py_basic\" />
     <Folder Include="tf_basic\" />
